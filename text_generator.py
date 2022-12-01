@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from transformers import pipeline, set_seed
 from pydantic import BaseModel
-
+########
 set_seed(42)
 class Item(BaseModel):
     text: str
